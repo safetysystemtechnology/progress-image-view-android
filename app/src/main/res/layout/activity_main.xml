@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="safety.com.br.progress_image_view.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hide from an event"
+        android:id="@+id/textView"
+        android:layout_below="@+id/progress_image_view_hide"
+        android:layout_alignRight="@+id/progress_image_view_hide"
+        android:layout_alignEnd="@+id/progress_image_view_hide" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/progress_image_view"
+        android:layout_alignStart="@+id/progress_image_view"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:text="Auto Hide"
+        android:layout_below="@+id/progress_image_view" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color and Size"
+        android:layout_below="@+id/progress_image_view_color_and_size"
+        android:layout_alignLeft="@+id/progress_image_view_color_and_size"
+        android:layout_alignStart="@+id/progress_image_view_color_and_size"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Offset"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_below="@+id/progress_image_view_offset"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <safety.com.br.progressimageview.ProgressImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/user_profile"
+        android:id="@+id/progress_image_view"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="19dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <safety.com.br.progressimageview.ProgressImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/user_profile"
+        android:id="@+id/progress_image_view_color_and_size"
+        android:layout_alignTop="@+id/progress_image_view_offset"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <safety.com.br.progressimageview.ProgressImageView
+        android:id="@+id/progress_image_view_offset"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignLeft="@+id/progress_image_view"
+        android:layout_alignStart="@+id/progress_image_view"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="63dp"
+        android:background="@drawable/user_profile" />
+
+    <safety.com.br.progressimageview.ProgressImageView
+        android:id="@+id/progress_image_view_hide"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/progress_image_view"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:background="@drawable/user_profile" />
+
+</RelativeLayout>

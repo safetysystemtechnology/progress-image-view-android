@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/gerente/Documentos/opensource/progress-image-view/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/home/gerente/Documentos/opensource/progress-image-view/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_94ca21708885bdaae95eaa639dc151d70d0cd441/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/gerente/Documentos/opensource/progress-image-view/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44a03617a44a8ee9d6ec6afc9a40727a20451024">
+        <dex dex="/home/gerente/Documentos/opensource/progress-image-view/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_848a7fac7e484bb63c72b4c715dccefcee85e9bc/classes.dex" />
+    </item>
+
+</items>
