@@ -38,16 +38,16 @@ progressImageView.showLoading();
 
 ```
 By default the animation of progress is auto hide.
-if you to prefer, you can set auto hide `false`
+if you prefer, you can set auto hide `false`
 ```java
 progressImageView.showLoading().withAutoHide(false);
 ```
-but for stop the animation you should invoke method `hideLoading`
+but to stop the animation you should invoke method `hideLoading`
 ```java
  progressImageView.hideLoading();
 ```
 
-You can set the color of animation and set the size of border of animation
+You can set the animation color and set the border size of animation
 ```java
 progressImageView.withBorderColor(Color.RED).withBorderSize(10);
 ```
