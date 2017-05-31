@@ -9,7 +9,18 @@ Simple progress with ImageView android
 ## Install 
 Add the dependecy
 
-TODO
+```gradle
+allprojects {
+  repositories {
+    ...
+    maven { url 'https://jitpack.io' }
+  }
+}
+dependencies {
+  compile 'com.github.safetysystemtechnology:progress-image-view-android:v1.0'
+}
+  
+```
 
 
 ### Add permissions in your androidmanifest.xml
@@ -55,7 +66,7 @@ and set custom offSet
 ```java
 progressImageView.withOffset(10);
 ```
-### Acknowledgment
+## Acknowledgment
          
  * [Leandro Ferreira](https://github.com/leandroBorgesFerreira)
 
